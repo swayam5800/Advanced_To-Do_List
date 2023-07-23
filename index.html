@@ -20,18 +20,20 @@
       </select>
       <button id="addTaskButton" onclick="addTask()">Add</button>
 
-      <div class="add-category">
-        <input
-          type="text"
-          id="newCategoryInput"
-          placeholder="New Category..."
-        />
-        <button id="addCategoryButton" onclick="addCategory()">
-          Add Category
-        </button>
-        <button id="removeCategoryButton" onclick="removeCategory()">
-          Remove Category
-        </button>
+      <div class="category-container">
+        <div class="add-category">
+          <input
+            type="text"
+            id="newCategoryInput"
+            placeholder="New Category..."
+          />
+          <button id="addCategoryButton" onclick="addCategory()">
+            Add Category
+          </button>
+          <button id="removeCategoryButton" onclick="removeCategory()">
+            Remove Category
+          </button>
+        </div>
       </div>
 
       <button id="sortByDueDateButton">Sort by Due Date</button>
